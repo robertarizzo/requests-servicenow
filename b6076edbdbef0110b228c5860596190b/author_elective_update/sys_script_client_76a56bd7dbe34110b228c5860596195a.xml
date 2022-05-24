@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>tipo_di_evento</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Aggiunta Altro Evento Aziendale</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	if(tipo_di_evento == "Altro") {
+		g_form.addOption('altro', 'altro', 'Dettagli');
+	}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 14:28:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>76a56bd7dbe34110b228c5860596195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Aggiunta Altro Evento Aziendale</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope>
+        <sys_update_name>sys_script_client_76a56bd7dbe34110b228c5860596195a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 14:28:54</sys_updated_on>
+        <table>x_823471_requests_evento_aziendale</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Requests">b6076edbdbef0110b228c5860596190b</application>
+        <file_path/>
+        <instance_id>f10474acdb621b803353f22ebf9619f0</instance_id>
+        <instance_name>dev60431</instance_name>
+        <name>sys_script_client_76a56bd7dbe34110b228c5860596195a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;tipo_di_evento&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Aggiunta Altro Evento Aziendale&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	if(tipo_di_evento == "Altro") {
+		g_form.addOption('altro', 'altro', 'Dettagli');
+	}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-24 14:28:54&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;76a56bd7dbe34110b228c5860596195a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Aggiunta Altro Evento Aziendale&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Requests" source="x_823471_requests"&gt;b6076edbdbef0110b228c5860596190b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Requests"&gt;b6076edbdbef0110b228c5860596190b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_76a56bd7dbe34110b228c5860596195a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-24 14:28:54&lt;/sys_updated_on&gt;&lt;table&gt;x_823471_requests_evento_aziendale&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>18370593</payload_hash>
+        <record_name>Aggiunta Altro Evento Aziendale</record_name>
+        <reverted_from/>
+        <source>fe076edbdbef0110b228c5860596190c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 14:28:55</sys_created_on>
+        <sys_id>f936afd7dbe34110b228c586059619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180f678849f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 14:28:55</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>3536afd77be34110876e5446d74bdde9</update_guid>
+        <update_guid_history>3536afd77be34110876e5446d74bdde9:18370593</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 14:29:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1c037f2054514adc8651f4b629ebee10</sys_id>
+        <sys_metadata>76a56bd7dbe34110b228c5860596195a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Aggiunta Altro Evento Aziendale</sys_name>
+        <sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package>
+        <sys_parent display_value="Evento Aziendale">afc7ee1fdbef0110b228c58605961920</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope>
+        <sys_scope_delete display_value="">8b14021b55524b439783414a2bedc331</sys_scope_delete>
+        <sys_update_name>sys_script_client_76a56bd7dbe34110b228c5860596195a</sys_update_name>
+        <sys_update_version display_value="sys_script_client_76a56bd7dbe34110b228c5860596195a">f936afd7dbe34110b228c586059619e9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 14:29:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

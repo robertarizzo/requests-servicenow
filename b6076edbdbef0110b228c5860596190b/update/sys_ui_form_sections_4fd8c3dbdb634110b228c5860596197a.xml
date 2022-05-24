@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="4fd8c3dbdb634110b228c5860596197a" sys_domain="global" table="x_823471_requests_evento_aziendale" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:20:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83d8c3dbdb634110b228c5860596197d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_823471_requests_evento_aziendale" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">4fd8c3dbdb634110b228c5860596197a</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">8fd8c3dbdb634110b228c58605961915</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:20:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:20:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fd8c3dbdb634110b228c5860596197d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_823471_requests_evento_aziendale" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">4fd8c3dbdb634110b228c5860596197a</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">c7d8c3dbdb634110b228c58605961916</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:20:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_823471_requests_evento_aziendale</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:20:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fd8c3dbdb634110b228c5860596197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_823471_requests_evento_aziendale</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_4fd8c3dbdb634110b228c5860596197a</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:20:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Admin View" name="admin_view">b2dc6c709f002200f45c7b9ac42e70e5</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

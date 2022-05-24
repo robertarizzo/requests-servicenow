@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="tipologia" table="x_823471_requests_attivit_informale" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>tipologia</element>
+            <name>x_823471_requests_attivit_informale</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 11:12:11</sys_created_on>
+            <sys_id>8839f61fdb234110b228c586059619c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>tipologia</sys_name>
+            <sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope>
+            <sys_update_name>sys_choice_x_823471_requests_attivit_informale_tipologia</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 11:12:11</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipologia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pizzata</label>
+            <language>en</language>
+            <name>x_823471_requests_attivit_informale</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 11:12:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0439f61fdb234110b228c586059619c9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:17:59</sys_updated_on>
+            <value>pizzata</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipologia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Weekend fuori porta</label>
+            <language>en</language>
+            <name>x_823471_requests_attivit_informale</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 11:12:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4039f61fdb234110b228c586059619cc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:17:59</sys_updated_on>
+            <value>weekend_fuori_porta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipologia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Gita</label>
+            <language>en</language>
+            <name>x_823471_requests_attivit_informale</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 11:12:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c439f61fdb234110b228c586059619ce</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:17:59</sys_updated_on>
+            <value>gita</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tipologia</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Altro</label>
+            <language>en</language>
+            <name>x_823471_requests_attivit_informale</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 11:12:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c39f61fdb234110b228c586059619d0</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:17:59</sys_updated_on>
+            <value>altro</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

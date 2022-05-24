@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="8fd8c3dbdb634110b228c58605961915" sys_domain="global" table="x_823471_requests_evento_aziendale" version="3" view="admin_view">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 13:00:08</sys_created_on>
+            <sys_id>99e15b17dba34110b228c586059619d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">8fd8c3dbdb634110b228c58605961915</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 13:00:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tipo_di_evento</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 13:00:08</sys_created_on>
+            <sys_id>11e15b17dba34110b228c586059619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">8fd8c3dbdb634110b228c58605961915</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 13:00:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nome_evento</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 13:00:08</sys_created_on>
+            <sys_id>91e15b17dba34110b228c586059619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">8fd8c3dbdb634110b228c58605961915</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 13:00:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 13:00:08</sys_created_on>
+            <sys_id>15e15b17dba34110b228c586059619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">8fd8c3dbdb634110b228c58605961915</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 13:00:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>luogo_dell_evento</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 13:00:08</sys_created_on>
+            <sys_id>95e15b17dba34110b228c586059619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">8fd8c3dbdb634110b228c58605961915</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 13:00:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 13:00:08</sys_created_on>
+            <sys_id>19e15b17dba34110b228c586059619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">8fd8c3dbdb634110b228c58605961915</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 13:00:08</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>organizzato_da</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 13:00:08</sys_created_on>
+            <sys_id>99e15b17dba34110b228c586059619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">8fd8c3dbdb634110b228c58605961915</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 13:00:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>co_organizzatore</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 13:00:08</sys_created_on>
+            <sys_id>1de15b17dba34110b228c586059619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">8fd8c3dbdb634110b228c58605961915</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 13:00:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>annullata</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 13:00:08</sys_created_on>
+            <sys_id>9de15b17dba34110b228c586059619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">8fd8c3dbdb634110b228c58605961915</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 13:00:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 13:00:08</sys_created_on>
+            <sys_id>11e15b17dba34110b228c586059619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">8fd8c3dbdb634110b228c58605961915</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 13:00:08</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 13:00:08</sys_created_on>
+            <sys_id>11e15b17dba34110b228c586059619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">8fd8c3dbdb634110b228c58605961915</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 13:00:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>spese_previste</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 13:00:08</sys_created_on>
+            <sys_id>91e15b17dba34110b228c586059619f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_evento_aziendale" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">8fd8c3dbdb634110b228c58605961915</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 13:00:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_823471_requests_evento_aziendale</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:20:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8fd8c3dbdb634110b228c58605961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_823471_requests_evento_aziendale</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope>
+            <sys_update_name>sys_ui_section_8fd8c3dbdb634110b228c58605961915</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:20:39</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Admin View" name="admin_view">b2dc6c709f002200f45c7b9ac42e70e5</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
