@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Requests">aebc17dfdba34110b228c5860596196e</application>
+        <filter/>
+        <name>user_sys</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_823471_requests.commenti_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 13:47:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6ebc17dfdba34110b228c58605961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>user_sys</sys_name>
+        <sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope>
+        <sys_update_name>sys_ui_module_6ebc17dfdba34110b228c58605961971</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 13:47:27</sys_updated_on>
+        <table>x_823471_requests_user_sys</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Requests">b6076edbdbef0110b228c5860596190b</application>
+        <file_path/>
+        <instance_id>f10474acdb621b803353f22ebf9619f0</instance_id>
+        <instance_name>dev60431</instance_name>
+        <name>sys_ui_module_6ebc17dfdba34110b228c58605961971</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Requests">aebc17dfdba34110b228c5860596196e</application><filter/><name>user_sys</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_823471_requests.commenti_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-24 13:47:27</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6ebc17dfdba34110b228c58605961971</sys_id><sys_mod_count>0</sys_mod_count><sys_name>user_sys</sys_name><sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package><sys_policy/><sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope><sys_update_name>sys_ui_module_6ebc17dfdba34110b228c58605961971</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-24 13:47:27</sys_updated_on><table>x_823471_requests_user_sys</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1054917340</payload_hash>
+        <record_name>user_sys</record_name>
+        <reverted_from/>
+        <source>fe076edbdbef0110b228c5860596190c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 13:47:27</sys_created_on>
+        <sys_id>2abc17dfdba34110b228c58605961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180f6528f6c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 13:47:27</sys_updated_on>
+        <type>Module</type>
+        <update_guid>62bc17dfe9a3411020e2dbefbf40e674</update_guid>
+        <update_guid_history>62bc17dfe9a3411020e2dbefbf40e674:1054917340</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 13:47:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>11873964661345b482677a075ce2eb90</sys_id>
+        <sys_metadata>6ebc17dfdba34110b228c58605961971</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>user_sys</sys_name>
+        <sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope>
+        <sys_scope_delete display_value="">8b14021b55524b439783414a2bedc331</sys_scope_delete>
+        <sys_update_name>sys_ui_module_6ebc17dfdba34110b228c58605961971</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_6ebc17dfdba34110b228c58605961971">2abc17dfdba34110b228c58605961974</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 13:47:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="da_1_a_10_quanto_hai_gradito_l_iniziativa" label="Da 1 a 10 quanto hai gradito l'iniziativa?" language="en" table="x_823471_requests_commenti">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>da_1_a_10_quanto_hai_gradito_l_iniziativa</element>
+            <help/>
+            <hint/>
+            <label>Da 1 a 10 quanto hai gradito l'iniziativa?</label>
+            <language>en</language>
+            <name>x_823471_requests_commenti</name>
+            <plural>Da 1 a 10 quanto hai gradito l'iniziativa?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 13:47:29</sys_created_on>
+            <sys_id>febc57dfdba34110b228c58605961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Da 1 a 10 quanto hai gradito l'iniziativa?</sys_name>
+            <sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope>
+            <sys_update_name>sys_documentation_x_823471_requests_commenti_da_1_a_10_quanto_hai_gradito_l_iniziativa_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 13:47:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

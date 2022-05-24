@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="DELETE">
+        <abort_action>true</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_823471_requests_evento_aziendale</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_823471_requests_evento_aziendale">dateMORETHANsys_created_on@week@after@1^ORdate&lt;javascript:gs.beginningOfToday()^EQ<item endquery="false" field="date" goto="false" newquery="false" operator="MORETHAN" or="false" value="sys_created_on@week@after@1"/>
+            <item endquery="false" field="date" goto="false" newquery="false" operator="&lt;" or="true" value="javascript:gs.beginningOfToday()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>Impossibile registrare la data! Verificare che sia entro 7 giorni da oggi!</p>]]></message>
+        <name>EA Campo Data</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions>x_823471_requests.admin,x_823471_requests.user</role_conditions>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+	var rightnow = new GlideDateTime();
+	var date = new GlideDateTime(current.date);
+	if(date.before(rightnow)) {
+		gs.addErrorMessage('Attenzione la data inserita non può essere nel passato!');
+		current.setAbortAction(true);
+	}
+	
+	var today = rightnow.getLocalDate();
+	var whenNeededDate =date.getLocalDate();
+	if(today.compareTo(whenNeededDate)==0) {
+		gs.addErrorMessage('Impossibile registrare una richiesta per il giorno corrente!');
+		current.setAbortAction(true);
+	}
+	
+	var data_futura = new GlideDateTime();
+	data_futura.addDaysLocalTime(+7);
+	if(date.compareTo(data_futura)==1) {
+		gs.addErrorMessage('Impossibile registra una richiesta oltre i 7 giorni da oggi');
+		current.setAbortionAction(true);
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 12:55:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7901f93dba34110b228c5860596190d</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>EA Campo Data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope>
+        <sys_update_name>sys_script_d7901f93dba34110b228c5860596190d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 13:13:19</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="DELETE" query="documentkey=d7901f93dba34110b228c5860596190d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Requests">b6076edbdbef0110b228c5860596190b</application>
+        <file_path/>
+        <instance_id>f10474acdb621b803353f22ebf9619f0</instance_id>
+        <instance_name>dev60431</instance_name>
+        <name>sys_script_d7901f93dba34110b228c5860596190d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;true&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;false&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;true&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;x_823471_requests_evento_aziendale&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition table="x_823471_requests_evento_aziendale"&gt;dateMORETHANsys_created_on@week@after@1^ORdate&amp;lt;javascript:gs.beginningOfToday()^EQ&lt;item endquery="false" field="date" goto="false" newquery="false" operator="MORETHAN" or="false" value="sys_created_on@week@after@1"/&gt;&lt;item endquery="false" field="date" goto="false" newquery="false" operator="&amp;lt;" or="true" value="javascript:gs.beginningOfToday()"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter_condition&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message&gt;&lt;![CDATA[&lt;p&gt;Impossibile registrare la data! Verificare che sia entro 7 giorni da oggi!&lt;/p&gt;]]&gt;&lt;/message&gt;&lt;name&gt;EA Campo Data&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions&gt;x_823471_requests.admin,x_823471_requests.user&lt;/role_conditions&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+	var rightnow = new GlideDateTime();
+	var date = new GlideDateTime(current.date);
+	if(date.before(rightnow)) {
+		gs.addErrorMessage('Attenzione la data inserita non può essere nel passato!');
+		current.setAbortAction(true);
+	}
+	
+	var today = rightnow.getLocalDate();
+	var whenNeededDate =date.getLocalDate();
+	if(today.compareTo(whenNeededDate)==0) {
+		gs.addErrorMessage('Impossibile registrare una richiesta per il giorno corrente!');
+		current.setAbortAction(true);
+	}
+	
+	var data_futura = new GlideDateTime();
+	data_futura.addDaysLocalTime(+7);
+	if(date.compareTo(data_futura)==1) {
+		gs.addErrorMessage('Impossibile registra una richiesta oltre i 7 giorni da oggi');
+		current.setAbortionAction(true);
+	}
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-24 12:55:51&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d7901f93dba34110b228c5860596190d&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;EA Campo Data&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Requests" source="x_823471_requests"&gt;b6076edbdbef0110b228c5860596190b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Requests"&gt;b6076edbdbef0110b228c5860596190b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_d7901f93dba34110b228c5860596190d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-24 13:13:19&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;before&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d7901f93dba34110b228c5860596190d"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2022383826</payload_hash>
+        <record_name>EA Campo Data</record_name>
+        <reverted_from/>
+        <source>fe076edbdbef0110b228c5860596190c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 13:13:19</sys_created_on>
+        <sys_id>e2e49bd7dba34110b228c58605961964</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180f6334fe40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 13:13:19</sys_updated_on>
+        <type>Business Rule</type>
+        <update_guid>aae49bd7d4a3411097bbb6b59ec24963</update_guid>
+        <update_guid_history>aae49bd7d4a3411097bbb6b59ec24963:2022383826,5d9453d7cba34110ee1cd2f82e4c362f:1648427809,31145f970ea34110c5af24494df05183:264046284,1253dfd36fa34110f3426fdbb4ba93e2:1528828288,18919317c8a341105184b33bd6382fab:1535210962,f2e01b9303a34110ed23273283b08ad8:1751942140</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 13:26:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_script">sys_script</sys_db_object>
+        <sys_id>4ea56b05d45b4672a32749e05348ee41</sys_id>
+        <sys_metadata>d7901f93dba34110b228c5860596190d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EA Campo Data</sys_name>
+        <sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package>
+        <sys_parent display_value="Evento Aziendale">afc7ee1fdbef0110b228c58605961920</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope>
+        <sys_scope_delete display_value="">8b14021b55524b439783414a2bedc331</sys_scope_delete>
+        <sys_update_name>sys_script_d7901f93dba34110b228c5860596190d</sys_update_name>
+        <sys_update_version display_value="sys_script_d7901f93dba34110b228c5860596190d">e2e49bd7dba34110b228c58605961964</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 13:26:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

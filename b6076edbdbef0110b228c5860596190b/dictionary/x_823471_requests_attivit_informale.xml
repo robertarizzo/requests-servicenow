@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Attività informale" max_length="40" name="x_823471_requests_attivit_informale" sizeclass="0" type="collection">
+        <element label="Annullata" max_length="40" name="annullata" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Data evento" mandatory="true" max_length="40" name="data_evento" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Motivi annullamento" max_length="1000" name="motivi_annullamento" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Numero massimo di partecipanti" mandatory="true" max_length="40" name="numero_massimo_di_partecipanti" type="integer"/>
+        <element attributes="omit_sys_original=true" label="Quota partecipativa" max_length="20" name="quota_partecipativa" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="si" label="Richiede quota partecipativa?" mandatory="true" max_length="40" name="richiede_quota_partecipativa" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" value="no"/>
+                <element inactive_on_update="false" label="Si" value="si"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="pizzata" label="Tipologia" mandatory="true" max_length="40" name="tipologia" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pizzata" sequence="0" value="pizzata"/>
+                <element inactive_on_update="false" label="Weekend fuori porta" sequence="1" value="weekend_fuori_porta"/>
+                <element inactive_on_update="false" label="Gita" sequence="2" value="gita"/>
+                <element inactive_on_update="false" label="Altro" sequence="3" value="altro"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Note" max_length="4000" name="u_journal_2" type="journal"/>
+        <element attributes="encode_utf8=false" label="Proposta da" max_length="32" name="u_reference_3" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Breve descrizione dell'evento" max_length="1000" name="u_string_1" type="string"/>
+        <index name="index">
+            <element name="u_reference_3"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Evento Aziendale" max_length="40" name="x_823471_requests_evento_aziendale" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Altro" max_length="140" name="altro" type="string"/>
+        <element label="Annullata" max_length="40" name="annullata" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Co-organizzatore" max_length="32" name="co_organizzatore" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Data dell'evento" mandatory="true" max_length="40" name="data_evento" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Data dell'evento" mandatory="true" max_length="40" name="date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Luogo dell'evento" mandatory="true" max_length="120" name="luogo_dell_evento" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Motivi dell'annullamento" max_length="1000" name="motivi_annullamento" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nome dell'evento" mandatory="true" max_length="100" name="nome_evento" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Organizzato da" mandatory="true" max_length="32" name="organizzato_da" reference="sys_user" type="reference"/>
+        <element attributes="omit_sys_original=true" label="Spese previste" mandatory="true" max_length="20" name="spese_previste" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="team_building" label="Tipo di evento" mandatory="true" max_length="40" name="tipo_di_evento" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Team Building" sequence="0" value="team_building"/>
+                <element inactive_on_update="false" label="Evento Sportivo" sequence="1" value="evento_sportivo"/>
+                <element inactive_on_update="false" label="Svago" sequence="2" value="svago"/>
+                <element inactive_on_update="false" label="Altro" sequence="3" value="altro"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Note" max_length="4000" name="u_journal_2" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Descrizione evento" max_length="40" name="u_string_1" type="string"/>
+        <index name="index">
+            <element name="co_organizzatore"/>
+        </index>
+        <index name="index2">
+            <element name="organizzato_da"/>
+        </index>
+    </element>
+</database>

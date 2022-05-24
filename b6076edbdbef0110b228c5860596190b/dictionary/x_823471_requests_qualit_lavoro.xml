@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Qualità Lavoro" max_length="40" name="x_823471_requests_qualit_lavoro" sizeclass="0" type="collection">
+        <element attributes="encode_utf8=false" label="Approvata da" max_length="32" name="approvata_da" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Dettagli aggiuntivi" max_length="1000" name="dettagli_aggiuntivi" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Richiesta da" mandatory="true" max_length="32" name="richiesta_promossa_da" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="approvata" label="Stato della proposta" max_length="40" name="stato_della_proposta" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approvata" value="approvata"/>
+                <element inactive_on_update="false" label="Non approvata" value="non_approvata"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="migliorare_assets" label="Tipologia di proposta" mandatory="true" max_length="40" name="tipologia_di_proposta" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Migliorare Assets" sequence="0" value="migliorare_assets"/>
+                <element inactive_on_update="false" label="Migliorare la comunicazione tra i dipartimenti" sequence="1" value="migliorare_la_comunicazione_tra_i_dipartimenti"/>
+                <element inactive_on_update="false" label="Altro" sequence="2" value="altro"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Note" max_length="4000" name="u_journal_1" type="journal"/>
+        <index name="index">
+            <element name="richiesta_promossa_da"/>
+        </index>
+        <index name="index2">
+            <element name="approvata_da"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_823471_requests_evento_aziendale</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Campo Data Evento Aziendale</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions>x_823471_requests.admin,x_823471_requests.user</role_conditions>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    var rightnow = new GlideDateTime();
+    var whenneeded = new GlideDateTime(current.date);
+    if (whenneeded.before(rightnow)) {
+        gs.addErrorMessage('Attenzione! La data inserita non può riferirsi al passato!');
+        current.setAbortAction(true);
+    }
+    var today = rightnow.getLocalDate();
+    var WhenNeededDate = whenneeded.getLocalDate();
+    if (today.compareTo(WhenNeededDate) == 0) {
+        gs.addErrorMessage('Impossibile registrare una richiesta NeedIt per il giorno corrente! Selezionare una data futura');
+        current.setAbortAction(true);
+    }
+
+    var data_futura = new GlideDateTime();
+    data_futura = addDaysLocalTime(+30);
+    if (whenneeded.compareTo(data_futura) == 1) {
+        gs.addErrorMessage('Impossibile registrare una richiesta oltre i 30 giorni dalla data corrente!');
+        current.setAbortAction(true);
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-24 13:58:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73ce1753dbe34110b228c586059619cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Campo Data Evento Aziendale</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope>
+        <sys_update_name>sys_script_73ce1753dbe34110b228c586059619cb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-24 14:07:07</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=73ce1753dbe34110b228c586059619cb"/>
+</record_update>

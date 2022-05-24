@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Commenti" max_length="40" name="x_823471_requests_commenti" type="collection">
+        <element choice="1" label="A quale attività ti riferisci?" max_length="40" name="a_quale_attivita_ti_riferisci" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Attività Informale" sequence="0" value="attività informale"/>
+                <element inactive_on_update="false" label="Evento aziendale" sequence="1" value="evento aziendale"/>
+                <element inactive_on_update="false" label="Qualità del Lavoro" sequence="2" value="qualità del lavoro"/>
+            </choice>
+        </element>
+        <element choice="1" label="Da 1 a 10 quanto hai gradito l'iniziativa?" mandatory="true" max_length="40" name="da_1_a_10_quanto_hai_gradito_l_iniziativa" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="2" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="3" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="4" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="5" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="6" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="7" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="8" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="9" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="10" sequence="9" value="10"/>
+            </choice>
+        </element>
+        <element label="Testo del commento" max_length="1000" name="testo_del_commento" type="string"/>
+        <element label="Titolo del commento" max_length="40" name="titolo_del_commento" type="string"/>
+    </element>
+</database>

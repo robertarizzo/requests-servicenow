@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_823471_requests_evento_aziendale" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_823471_requests_evento_aziendale" element="NULL" name="x_823471_requests_evento_aziendale" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">72f98fdbdb634110b228c5860596197f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:25:33</sys_created_on>
+            <sys_id>baf98fdbdb634110b228c58605961980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>annullata</element>
+            <list_id display_value="x_823471_requests_evento_aziendale" element="NULL" name="x_823471_requests_evento_aziendale" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">72f98fdbdb634110b228c5860596197f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:25:33</sys_created_on>
+            <sys_id>b2f98fdbdb634110b228c58605961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>co_organizzatore</element>
+            <list_id display_value="x_823471_requests_evento_aziendale" element="NULL" name="x_823471_requests_evento_aziendale" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">72f98fdbdb634110b228c5860596197f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:25:33</sys_created_on>
+            <sys_id>36f98fdbdb634110b228c58605961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>data_evento</element>
+            <list_id display_value="x_823471_requests_evento_aziendale" element="NULL" name="x_823471_requests_evento_aziendale" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">72f98fdbdb634110b228c5860596197f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:25:33</sys_created_on>
+            <sys_id>baf9471fdb634110b228c5860596194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>luogo_dell_evento</element>
+            <list_id display_value="x_823471_requests_evento_aziendale" element="NULL" name="x_823471_requests_evento_aziendale" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">72f98fdbdb634110b228c5860596197f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:25:33</sys_created_on>
+            <sys_id>3ef9471fdb634110b228c5860596194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>motivi_annullamento</element>
+            <list_id display_value="x_823471_requests_evento_aziendale" element="NULL" name="x_823471_requests_evento_aziendale" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">72f98fdbdb634110b228c5860596197f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:25:33</sys_created_on>
+            <sys_id>bef9471fdb634110b228c5860596194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>nome_evento</element>
+            <list_id display_value="x_823471_requests_evento_aziendale" element="NULL" name="x_823471_requests_evento_aziendale" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">72f98fdbdb634110b228c5860596197f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:25:33</sys_created_on>
+            <sys_id>32f9471fdb634110b228c5860596194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>organizzato_da</element>
+            <list_id display_value="x_823471_requests_evento_aziendale" element="NULL" name="x_823471_requests_evento_aziendale" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">72f98fdbdb634110b228c5860596197f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:25:33</sys_created_on>
+            <sys_id>b2f9471fdb634110b228c5860596194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>spese_previste</element>
+            <list_id display_value="x_823471_requests_evento_aziendale" element="NULL" name="x_823471_requests_evento_aziendale" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">72f98fdbdb634110b228c5860596197f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:25:33</sys_created_on>
+            <sys_id>36f9471fdb634110b228c5860596194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>tipo_di_evento</element>
+            <list_id display_value="x_823471_requests_evento_aziendale" element="NULL" name="x_823471_requests_evento_aziendale" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">72f98fdbdb634110b228c5860596197f</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:25:33</sys_created_on>
+            <sys_id>b6f9471fdb634110b228c5860596194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:25:33</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_823471_requests_evento_aziendale</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-24 12:25:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72f98fdbdb634110b228c5860596197f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_823471_requests_evento_aziendale</sys_name>
+            <sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope>
+            <sys_update_name>sys_ui_list_x_823471_requests_evento_aziendale_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-24 12:25:33</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
