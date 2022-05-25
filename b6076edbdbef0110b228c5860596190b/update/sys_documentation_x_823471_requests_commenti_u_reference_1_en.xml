@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_reference_1" label="A quale attività ti riferisci?" language="en" table="x_823471_requests_commenti">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_reference_1</element>
+            <help/>
+            <hint/>
+            <label>A quale attività ti riferisci?</label>
+            <language>en</language>
+            <name>x_823471_requests_commenti</name>
+            <plural>A quale attività ti riferisci?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 08:00:12</sys_created_on>
+            <sys_id>69d653efdb238110b228c58605961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>A quale attività ti riferisci?</sys_name>
+            <sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope>
+            <sys_update_name>sys_documentation_x_823471_requests_commenti_u_reference_1_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 08:00:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-05-24 12:22:05</sys_created_on>
-            <sys_id>48390bdbdb634110b228c5860596197d</sys_id>
+            <sys_created_on>2022-05-25 08:31:18</sys_created_on>
+            <sys_id>95fdd7a7db638110b228c58605961918</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_qualit_lavoro" sys_domain="global" view="Default view">53f8c3dbdb634110b228c586059619c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-05-24 12:22:05</sys_updated_on>
+            <sys_updated_on>2022-05-25 08:31:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,97 +18,111 @@
             <element>tipologia_di_proposta</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-05-24 12:22:05</sys_created_on>
-            <sys_id>c8390bdbdb634110b228c5860596197d</sys_id>
+            <sys_created_on>2022-05-25 08:31:19</sys_created_on>
+            <sys_id>5dfdd7a7db638110b228c58605961918</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_qualit_lavoro" sys_domain="global" view="Default view">53f8c3dbdb634110b228c586059619c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-05-24 12:22:05</sys_updated_on>
+            <sys_updated_on>2022-05-25 08:31:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>altro2</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 08:31:19</sys_created_on>
+            <sys_id>ddfdd7a7db638110b228c58605961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_qualit_lavoro" sys_domain="global" view="Default view">53f8c3dbdb634110b228c586059619c7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 08:31:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-05-24 12:22:05</sys_created_on>
-            <sys_id>4c390bdbdb634110b228c5860596197d</sys_id>
+            <sys_created_on>2022-05-25 08:31:19</sys_created_on>
+            <sys_id>51fdd7a7db638110b228c58605961919</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_qualit_lavoro" sys_domain="global" view="Default view">53f8c3dbdb634110b228c586059619c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-05-24 12:22:05</sys_updated_on>
+            <sys_updated_on>2022-05-25 08:31:19</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>richiesta_promossa_da</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-05-24 12:22:05</sys_created_on>
-            <sys_id>cc390bdbdb634110b228c5860596197d</sys_id>
+            <sys_created_on>2022-05-25 08:31:19</sys_created_on>
+            <sys_id>d1fdd7a7db638110b228c58605961919</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_qualit_lavoro" sys_domain="global" view="Default view">53f8c3dbdb634110b228c586059619c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-05-24 12:22:05</sys_updated_on>
+            <sys_updated_on>2022-05-25 08:31:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>stato_della_proposta</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-05-24 12:22:05</sys_created_on>
-            <sys_id>40390bdbdb634110b228c5860596197e</sys_id>
+            <sys_created_on>2022-05-25 08:31:19</sys_created_on>
+            <sys_id>55fdd7a7db638110b228c58605961919</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_qualit_lavoro" sys_domain="global" view="Default view">53f8c3dbdb634110b228c586059619c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-05-24 12:22:05</sys_updated_on>
+            <sys_updated_on>2022-05-25 08:31:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>approvata_da</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-05-24 12:22:05</sys_created_on>
-            <sys_id>c0390bdbdb634110b228c5860596197e</sys_id>
+            <sys_created_on>2022-05-25 08:31:19</sys_created_on>
+            <sys_id>d5fdd7a7db638110b228c58605961919</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_qualit_lavoro" sys_domain="global" view="Default view">53f8c3dbdb634110b228c586059619c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-05-24 12:22:05</sys_updated_on>
+            <sys_updated_on>2022-05-25 08:31:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-05-24 12:22:05</sys_created_on>
-            <sys_id>44390bdbdb634110b228c5860596197e</sys_id>
+            <sys_created_on>2022-05-25 08:31:19</sys_created_on>
+            <sys_id>59fdd7a7db638110b228c58605961919</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_qualit_lavoro" sys_domain="global" view="Default view">53f8c3dbdb634110b228c586059619c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-05-24 12:22:05</sys_updated_on>
+            <sys_updated_on>2022-05-25 08:31:19</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>dettagli_aggiuntivi</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-05-24 12:22:05</sys_created_on>
-            <sys_id>c4390bdbdb634110b228c5860596197e</sys_id>
+            <sys_created_on>2022-05-25 08:31:19</sys_created_on>
+            <sys_id>d9fdd7a7db638110b228c58605961919</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_823471_requests_qualit_lavoro" sys_domain="global" view="Default view">53f8c3dbdb634110b228c586059619c7</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-05-24 12:22:05</sys_updated_on>
+            <sys_updated_on>2022-05-25 08:31:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
