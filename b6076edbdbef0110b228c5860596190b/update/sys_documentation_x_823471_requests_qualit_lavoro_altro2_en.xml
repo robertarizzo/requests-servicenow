@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="altro2" label="Altro" language="en" table="x_823471_requests_qualit_lavoro">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>altro2</element>
+            <help/>
+            <hint/>
+            <label>Altro</label>
+            <language>en</language>
+            <name>x_823471_requests_qualit_lavoro</name>
+            <plural>Altros</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-05-25 08:31:18</sys_created_on>
+            <sys_id>cdfd97a7db638110b228c586059619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Altro</sys_name>
+            <sys_package display_value="Requests" source="x_823471_requests">b6076edbdbef0110b228c5860596190b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Requests">b6076edbdbef0110b228c5860596190b</sys_scope>
+            <sys_update_name>sys_documentation_x_823471_requests_qualit_lavoro_altro2_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-05-25 08:31:18</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

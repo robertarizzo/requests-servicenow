@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Attività informale" max_length="40" name="x_823471_requests_attivit_informale" sizeclass="0" type="collection">
+    <element label="Attività informale" max_length="40" name="x_823471_requests_attivit_informale" sizeclass="1" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Altro" max_length="40" name="altro1" type="string"/>
         <element label="Annullata" max_length="40" name="annullata" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" label="Data evento" mandatory="true" max_length="40" name="data_evento" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Motivi annullamento" max_length="1000" name="motivi_annullamento" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Numero massimo di partecipanti" mandatory="true" max_length="40" name="numero_massimo_di_partecipanti" type="integer"/>
         <element attributes="omit_sys_original=true" label="Quota partecipativa" max_length="20" name="quota_partecipativa" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="si" label="Richiede quota partecipativa?" mandatory="true" max_length="40" name="richiede_quota_partecipativa" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Richiede quota partecipativa?" mandatory="true" max_length="40" name="richiede_quota_partecipativa" type="choice">
             <choice>
                 <element inactive_on_update="false" label="No" value="no"/>
                 <element inactive_on_update="false" label="Si" value="si"/>

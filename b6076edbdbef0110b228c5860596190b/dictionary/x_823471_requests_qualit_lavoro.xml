@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Qualità Lavoro" max_length="40" name="x_823471_requests_qualit_lavoro" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Altro" max_length="40" name="altro2" type="string"/>
         <element attributes="encode_utf8=false" label="Approvata da" max_length="32" name="approvata_da" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Dettagli aggiuntivi" max_length="1000" name="dettagli_aggiuntivi" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
